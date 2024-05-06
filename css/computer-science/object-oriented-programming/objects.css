@@ -1,0 +1,253 @@
+/* ********************* SIDE NAVIGATION ********************** */
+nav {
+    height: 100vh;
+    width: 180px;
+  
+    background-color: rgb(130, 69, 184);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  nav .logo-banner {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  nav .banner-logo {
+  }
+  
+  nav .banner-name {
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .user-profile {
+    padding: 10px;
+    background-color: rgb(107, 58, 150);
+  }
+  
+  nav .user-selfie {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+  
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(211, 211, 211);
+  }
+  
+  nav .user-information {
+    text-align: center;
+  
+    font-size: 0.6em;
+    color: white;
+  }
+  
+  nav ul {
+    padding: 0px;
+    margin: 0px;
+  
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    padding: 8px 5px 12px 10px;
+  
+    font-size: 0.8em;
+    color: white;
+  }
+  
+  nav ul li:hover {
+    cursor: pointer;
+  
+    background-color: rgb(142, 86, 190);
+  }
+  
+  nav .nav-icon {
+    height: 16px;
+    width: 16px;
+  
+    display: inline-block;
+  }
+  
+  nav ul a.active {
+    pointer-events: none;
+  }
+  
+  nav ul li.active {
+    background-color: rgb(93, 93, 93);
+  }
+  
+  #terminal-icon {
+    background-image: url("../../../res/icons/square-terminal.png");
+    background-size: cover;
+  
+    transform: translateY(3px);
+    margin-right: 8px;
+  }
+  
+  #overview-icon {
+    background-image: url("../../../res/icons/overview.png");
+    background-size: cover;
+  
+    transform: translateY(3px);
+    margin-right: 8px;
+  }
+  
+  #java-icon {
+    background-image: url("../../../res/icons/coffee.png");
+    background-size: cover;
+  
+    transform: translateY(3px);
+    margin-right: 8px;
+  }
+  
+  #devops-icon {
+    background-image: url("../../../res/icons/devops.png");
+    background-size: cover;
+  
+    transform: translateY(3px);
+    margin-right: 8px;
+  }
+  
+  #web-icon {
+    background-image: url("../../../res/icons/web.png");
+    background-size: cover;
+  
+    transform: translateY(3px) translateX(-2px);
+    margin-right: 8px;
+  
+    height: 17px;
+    width: 17px;
+  }
+  
+  #database-icon {
+    background-image: url("../../../res/icons/database.png");
+    background-size: cover;
+  
+    transform: translateY(3px);
+    margin-right: 8px;
+  }
+  
+  #tools-icon {
+    background-image: url("../../../res/icons/tools.png");
+    background-size: cover;
+  
+    transform: translateY(3px);
+    margin-right: 8px;
+  }
+  
+  .top-nav {
+    width: calc(100vw - 180px);
+    background-color: rgb(130, 69, 184);
+    height: 41px;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+  }
+  
+  #help-button {
+    float: right;
+    color: white;
+    line-height: 39px;
+    margin-right: 25px;
+  }
+  
+  .content {
+    position: absolute;
+    top: 45px;
+    left: 230px;
+    width: calc(100vw - 280px);
+    height: calc(100vh - 90px);
+    overflow-y: scroll;
+  }
+  
+  .content-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 25px;
+  }
+  
+  .content-description {
+    font-size: 0.8em;
+    color: rgb(78, 78, 78);
+    margin-bottom: 40px;
+  }
+  
+  .content-card {
+    display: inline-block;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-right: 10px;
+    border: 1px solid rgb(185, 184, 184);
+    vertical-align: top;
+    margin-bottom: 10px;
+    height: 385px;
+  }
+  
+  .content-card-title {
+    background-color: rgb(130, 69, 184);
+    padding: 5px 10px 5px 10px;
+    color: white;
+  }
+  
+  .content-card-description {
+    background-color: rgb(222, 222, 222);
+    padding: 5px 10px 5px 10px;
+    font-size: 0.65em;
+    margin-bottom: 5px;
+    height: 45px;
+  }
+  
+  .content-card-items {
+    padding: 10px;
+  }
+  
+  .content-card-item {
+    /* border: 1px solid rgb(212, 212, 212); */
+    border-radius: 8px;
+    margin-bottom: 8px;
+    background-color: rgb(245, 245, 245);
+    padding: 1px 0px 1px 3px;
+    transition-duration: 150ms;
+  }
+  
+  .content-card-item:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .card-item-name {
+    display: inline-block;
+    font-size: 0.7em;
+    line-height: 25px;
+  }
+  
+  .card-item-description {
+    font-size: 0.6em;
+    color: grey;
+    float: right;
+    line-height: 25px;
+    margin-right: 8px;
+  }
+  
+  #overlay {
+    position: absolute;
+    height: calc(100vh - 40px);
+    width: calc(100vw - 180px);
+    top: 40px;
+    left: 180px;
+    background-color: rgba(0, 0, 0, 0.636);
+    z-index: -1;
+  }
+  
+  .card-item-icon {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-size: cover;
+    transform: translateY(4px);
+    margin-left: 3px;
+  }

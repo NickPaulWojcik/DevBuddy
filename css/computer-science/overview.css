@@ -158,6 +158,7 @@ nav ul li.active {
   left: 230px;
   width: calc(100vw - 280px);
   height: calc(100vh - 90px);
+  overflow-y: scroll;
 }
 
 .content-title {
@@ -182,6 +183,7 @@ nav ul li.active {
   border: 1px solid rgb(185, 184, 184);
   vertical-align: top;
   margin-bottom: 10px;
+  height: 385px;
 }
 
 .content-card-title {
