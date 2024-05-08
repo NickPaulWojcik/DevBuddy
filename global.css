@@ -166,3 +166,27 @@ form {
 .expanded {
   padding: 10px 5px 15px 10px;
 }
+
+.arrow {
+  transition-duration: 150ms;
+}
+
+.expand-arrow {
+  float: right;
+  height: 8px;
+  width: 8px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  margin-right: 10px;
+  transform: translateY(7px) rotate(45deg);
+}
+
+.expanded-arrow {
+  float: right;
+  height: 8px;
+  width: 8px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  margin-right: 10px;
+  transform: translateY(7px) rotate(135deg);
+}

@@ -32,26 +32,26 @@
             <span class="nav-icon" id="overview-icon"></span>Scrum planner
           </li>
         </a>
-        <li class="expandable"><span class="nav-icon" id="terminal-icon"></span>Learn</li>
-        <a href="./../computer-science/overview.html">
-          <li>
-            <span class="nav-icon" id="terminal-icon"></span>Computer Science
-          </li>
-        </a>
-        <a class="active" href="http://">
-          <li class="active">
-            <span class="nav-icon" id="java-icon"></span>Core Java
-          </li>
-        </a>
-        <a href="./../devops/overview.html">
-          <li><span class="nav-icon" id="devops-icon"></span>DevOps</li>
-        </a>
-        <a href="./../web-development/overview.html">
-          <li><span class="nav-icon" id="web-icon"></span>Web Development</li>
-        </a>
-        <a href="http://">
-          <li><span class="nav-icon" id="database-icon"></span>Database</li>
-        </a>
+        <li class="expandable expanded">
+          <span class="nav-icon" id="terminal-icon"></span>Learn<span class="arrow expand-arrow"></span>
+          <ul class="sub-nav">
+            <a href="./../computer-science/overview.html">
+              <li>Computer Science</li>
+            </a>
+            <a class="active" href="./../java/overview.html">
+              <li class="active">Core Java</li>
+            </a>
+            <a href="./../devops/overview.html">
+              <li>DevOps</li>
+            </a>
+            <a href="./../web-development/overview.html">
+              <li>Web Development</li>
+            </a>
+            <a href="http://">
+              <li>Database</li>
+            </a>
+          </ul>
+        </li>
         <a href="http://">
           <li><span class="nav-icon" id="tools-icon"></span>Tools</li>
         </a>
@@ -295,9 +295,23 @@
       </div>
     </div>
 
-    <!-- <div class="login-container">
-      <div class="login-box"></div>
-    </div> -->
+    <div class="login-container">
+      <div class="login-box">
+        <div class="splash-container">
+
+        </div>
+        <div class="sign-in-container">
+          <div class="sign-in-banner">Sign in</div>
+          <form action="">
+            <label for="sign-in-username">email</label>
+            <input id="sign-in-username" type="text">
+            <label for="sign-in-password">password</label>
+            <input id="sign-in-password" type="text">
+            <button>Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <div id="dot-1"></div>
     <div id="dot-2"></div>
