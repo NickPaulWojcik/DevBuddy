@@ -228,8 +228,8 @@ form {
   padding: 3px 5px 5px 5px;
   margin-top: 7px;
   border-radius: 5px;
-  color: rgb(232, 232, 232) !important;
-  background-color: rgb(75, 164, 102);
+  color: rgb(27, 27, 27) !important;
+  background-color: rgb(120, 205, 145);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-size: 0.8em !important;
 }

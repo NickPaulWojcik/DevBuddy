@@ -379,10 +379,12 @@ nav ul li.active {
   outline: none;
   border-bottom: 1px solid grey;
   background-color: rgba(0, 0, 255, 0);
-  border-radius: 12px;
-  padding: 0px 0px 2px 8px;
-  width: 94%;
-  margin-left: calc(3% - 4px);
+  border-radius: 6px;
+  padding: 4px 2px 4px 10px;
+  width: 90%;
+  background-color: white;
+  margin-left: calc(5% - 6px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.176);
 }
 
 .weekday-card-tasks {
@@ -412,7 +414,7 @@ nav ul li.active {
 
 .task-description {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.75em;
   transform: translateY(-1px);
 }
 
