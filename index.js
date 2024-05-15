@@ -5,6 +5,7 @@ function init() {
 
   let menuItem = document.querySelector(".expandable ul");
   let menuParent = document.querySelector(".expandable");
+  
   if (menuItem.classList.contains("hidden")) {
     menuItem.classList.remove("hidden");
     menuParent.classList.add("expanded");
