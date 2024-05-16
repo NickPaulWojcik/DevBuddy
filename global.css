@@ -106,9 +106,44 @@ a {
   display: none;
 }
 
+nav {
+  position: absolute;
+  top: 41px;
+  left: 0px;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+  width: 180px;
+  height: calc(100vh - 41px);
+  background-color: rgb(130, 69, 184);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.logo-banner {
+  padding: 10px 0px 10px 0px;
+  display: inline-block;
+  margin-left: 52px;
+}
+
+.banner-logo {
+}
+
+.banner-name {
+  color: white;
+  font-weight: bold;
+}
+
 .sub-nav {
   margin-top: 12px;
   padding-right: 20px;
+}
+
+.top-nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  background-color: rgb(130, 69, 184);
+  height: 41px;
 }
 
 .sub-nav li {
@@ -195,7 +230,7 @@ form {
   position: absolute;
   height: 20px;
   width: 20px;
-  background-color: rgb(226, 164, 119);
+  background-color: rgb(244, 244, 244);
   border-radius: 50%;
   border: 1px solid black;
   top: 10px;
@@ -229,7 +264,29 @@ form {
   margin-top: 7px;
   border-radius: 5px;
   color: rgb(27, 27, 27) !important;
-  background-color: rgb(226, 164, 119);
+  background-color: rgb(244, 244, 244);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-size: 0.8em !important;
+}
+
+.collapsed {
+  transform: translateX(-150px);
+}
+
+.content {
+  position: absolute;
+  top: 45px;
+  left: 230px;
+  width: calc(100vw - 280px);
+  height: calc(100vh - 90px);
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+}
+
+.content-full { /* needs to cascade after .content */
+  position: absolute;
+  top: 45px;
+  left: 75px !important;
+  width: calc(100vw - 125px) !important;
+  height: calc(100vh - 90px);
 }

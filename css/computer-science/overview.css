@@ -1,25 +1,4 @@
 /* ********************* SIDE NAVIGATION ********************** */
-nav {
-  height: 100vh;
-  width: 180px;
-
-  background-color: rgb(130, 69, 184);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-nav .logo-banner {
-  text-align: center;
-  padding: 10px 0px 10px 0px;
-}
-
-nav .banner-logo {
-}
-
-nav .banner-name {
-  color: white;
-  font-weight: bold;
-}
-
 nav .user-profile {
   padding: 10px;
   background-color: rgb(107, 58, 150);
@@ -136,29 +115,11 @@ nav ul li.active {
   margin-right: 8px;
 }
 
-.top-nav {
-  width: calc(100vw - 180px);
-  background-color: rgb(130, 69, 184);
-  height: 41px;
-  position: absolute;
-  top: 0px;
-  left: 180px;
-}
-
 #help-button {
   float: right;
   color: white;
   line-height: 39px;
   margin-right: 25px;
-}
-
-.content {
-  position: absolute;
-  top: 45px;
-  left: 230px;
-  width: calc(100vw - 280px);
-  height: calc(100vh - 90px);
-  overflow-y: scroll;
 }
 
 .content-title {
