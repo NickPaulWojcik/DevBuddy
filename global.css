@@ -116,6 +116,7 @@ nav {
   height: calc(100vh - 41px);
   background-color: rgb(130, 69, 184);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transform: none;
 }
 
 .logo-banner {
