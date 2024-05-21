@@ -308,7 +308,7 @@ p {
   border: 1px solid rgb(161, 161, 161);
   padding: 15px;
   border-radius: 5px;
-  background-color: white;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.06);
   margin-bottom: 15px;
 }
