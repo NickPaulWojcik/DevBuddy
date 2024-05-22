@@ -312,3 +312,8 @@ p {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.06);
   margin-bottom: 15px;
 }
+
+.guide-section ul li {
+  font-size: 0.9em;
+  color: grey;
+}
