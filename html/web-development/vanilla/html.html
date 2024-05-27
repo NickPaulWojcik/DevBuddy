@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevBuddy: CS - Objects</title>
+    <title>DevBuddy: web - html</title>
     <link
       rel="shortcut icon"
       href="../../../res/icons/logo.png"
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../../../global.css" />
     <link
       rel="stylesheet"
-      href="../../../css/computer-science/object-oriented-programming/objects.css"
+      href="../../../css/web-development/vanilla/vanilla.css"
     />
   </head>
   <body>
@@ -37,8 +37,8 @@
         <li class="expandable expanded">
           <span class="nav-icon" id="terminal-icon"></span>Learn<span class="arrow expanded-arrow"></span>
           <ul class="sub-nav">
-            <a class="active" href="http://">
-              <li class="active">Computer Science</li>
+            <a href="../../computer-science/overview.html">
+              <li >Computer Science</li>
             </a>
             <a href="../../java/overview.html">
               <li>Core Java</li>
@@ -46,8 +46,8 @@
             <a href="../../devops/overview.html">
               <li>DevOps</li>
             </a>
-            <a href="../../web-development/overview.html">
-              <li>Web Development</li>
+            <a class="active" href="http://">
+              <li class="active">Web Development</li>
             </a>
             <a href="../../database/overview.html">
               <li>Database</li>
@@ -68,7 +68,7 @@
     </div>
 
     <div class="content">
-      <div class="content-title">Objects</div>
+      <div class="content-title">HTML5</div>
       <div class="content-description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem in
         architecto perspiciatis soluta, aut aliquam explicabo cum? Quaerat
@@ -76,41 +76,24 @@
         Porro?
       </div>
       <div class="guide-section">
-        <h5>What are objects?</h5>
-        <p>Objects are the core of any object oriented programming language. They provide developers 
-          building blocks to create complex and structured code. Objects in programming are designed after 
-          objects that can be found in the real world.
-        </p>
+        <h5>What is HTML5?</h5>
         <p>
-          Objects are broken up into two major uses: <em>variables</em>, and <em>functions</em>.
+          Classes are the blue prints of objects and are files that end in the class file type. 
+          They hold the information used to create objects when a developer 
+          instantiates one. Classes consist of four major components:
           <ul>
-            <li><strong>variables</strong>: data stored within the object</li>
-            <li><strong>functions</strong>: actions the object can take</li>
+            <li><strong>Import statements</strong>: Import statements import other classes into the current class for use</li>
+            <li><strong>Variable declarations</strong>: Variable statements create variables for use in the current class</li>
+            <li><strong>Constructor functions</strong>: Constructor functions are the functions developers call to create new objects</li>
+            <li><strong>Functions</strong>: Functions are the actions of the class, they can use the classes variables and other functions</li>
           </ul>
-        </p>
-        <p>
-          Objects are created by instantiation. When an object is instantiated, it makes an independent copy. At anytime 
-          there may be multiple independent objects of the same type.
-        </p>
-        <p>
-          Each object contains its own variables and functions. For example, we can have a lamp object with an integer variable 
-          that tracks if its on or off with the numbers 0 for off and 1 for on.  This object can also have two functions, one for turning 
-          the lamp on and one for turning it off. If a developer creates two lamp objects, say A and B, the developer 
-          can call the turn on function of lamp A and the turn off function of lamp B. If the developer checks the variable used to track if its on or off, 
-          they will see that lamp A is on and lamp B is off.
         </p>
       </div>
       <div class="guide-section">
-        <h5>How are objects used?</h5>
+        <h5>How is HTML5 used?</h5>
         <p>
-          Since objects are built to match real world objects, they can be used to design complex software in a familiar way. Most software 
-          aims to solve problems in the real world, which consists of real objects, which means developers can design their systems 
-          with recognizable objects.
-        </p>
-        <p>
-          Its important to keep in mind that not all objects developers come across will be based on 
-          an object in the real world, but most will. For example, a developer may want to make an object that just has functions to solve 
-          math problems and then use that object repeatidly without writing new code each time.
+          Classes are created when developers need a new object to use. They will create a class with all 
+          the major components needed and then create objects from it.
         </p>
       </div>
       <div class="guide-section">
@@ -142,7 +125,7 @@
     <div id="dot-3"></div>
     <div id="dot-4"></div>
     <!-- <div id="overlay"></div> -->
-    <script src="../../../javascript/computer-science/object-oriented-programming/objects.js"></script>
+    <script src="../../../javascript/web-development/vanilla/vanilla.js"></script>
     <script src="../../../global.js"></script>
   </body>
 </html>
